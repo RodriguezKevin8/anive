@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.audio-container {
+  position: absolute;
+  bottom: 10px;
+}
+
+audio {
+  width: 100%;
+}
+
+.container {
+  display: flex; /* Agregado para usar flexbox */
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo adicional para que la imagen sea responsive dentro del contenedor */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.contenido {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+button {
+  background-color: #8b4513;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #cd853f;
+}
+
+.contenido img {
+  max-width: 100%;
+  height: auto;
+}
+
+.val {
+  margin-top: 590px;
+}

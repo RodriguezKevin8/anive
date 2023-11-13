@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/fondo.png");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.contenido {
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+button {
+  background-color: #8b4513; /* Color marrón vintage */
+  color: #ffffff; /* Color del texto */
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Agrega sombra para resaltar el botón */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #cd853f; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+.corazon {
+  position: absolute;
+  background-color: red;
+  height: 10px;
+  width: 10px;
+  transform: rotate(-45deg);
+  animation: caer 5s linear infinite;
+}
+
+@keyframes caer {
+  to {
+    transform: translateY(100vh) rotate(-45deg);
+  }
+}
